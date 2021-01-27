@@ -10,3 +10,22 @@ body{
     box-shadow: 10px 10px 15px gray;
     padding: 50px;
 }
+#transaction-area{
+    display: none;
+}
+.Deposite{
+    background-color:slateblue ;
+}
+.Withdraw{
+    background-color: lightsalmon;
+}
+.Balance{
+    background-color: orange;
+}
+.common-class{
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+   
+}

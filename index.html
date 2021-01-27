@@ -10,18 +10,69 @@
 </head>
 <body>
     <!-- login area -->
-    <div>
-        <h1 class="bank-title">Welcome To Our Pioneer Bank</h1>
-        <!-- submit area -->
-        <div class="submit-area">
-            <h4>Login</h4>
-            <input type="text" class="form-control" placeholder="Enter your Email" >
-            <br>
-            <input type="password" class="form-control" placeholder="Enter your password" >
-            <br>
-            <button class="btn btn-success">Enter</button>
-        </div>
+    <div  id="login-area">
+            <h1 class="bank-title">Welcome To Our Pioneer Bank</h1>
+            <!-- submit area -->
+            <div class="submit-area">
+                <h4>Login</h4>
+                <input type="text" class="form-control" placeholder="Enter your Email" >
+                <br>
+                <input type="password" class="form-control" placeholder="Enter your password" >
+                <br>
+                <button id="login-button" class="btn btn-success">Enter</button>
+            </div>
     </div>
-  
+
+    <!-- transaction area -->
+    <div id="transaction-area">
+        <!-- prothom row create korbo -->
+        <div class="row">
+            <!-- tarpor er majhe column hobe 3ta,mane 3*4ta -->
+            <!-- 1 -->
+            <div class="col-md-4 common-class">
+                    <div class="Deposite">
+                        <h5>Deposite</h5>
+                        <h2>%<span id="currentDeposite">00</span></h2>
+                    </div>
+            </div>          
+            <!-- 2 -->
+            <div class="col-md-4 common-class">
+                    <div class="Withdraw">
+                        <h5>Withdraw</h5>
+                        <h2>$<span id="currentWithdraw">00</span></h2>
+                    </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-md-4 common-class">
+                <div class="Balance">
+                    <h5>Balance</h5>
+                    <h2>$<span id="currentBalance">2000</span></h2>
+                </div>
+            </div>
+        </div>
+        <!-- depo/widrw area -->
+        <div class="row">
+                <div class="col-md-6">
+            <div class="submit-area">
+                <h1>Deposite</h1>
+                <input type="text" placeholder="$ amount you want to Deposite"  class="form-control" id="deposite-input-text">
+                <br><br>
+                <button class="btn btn-success" id="Deposite-btn">Deposite</button>
+            </div>
+                </div>
+                   <div class="col-md-6">
+            <div class="submit-area">
+                <h1>Withdraw</h1>
+                <input type="text" placeholder="$ amount you want to Withdraw" class="form-control" id="withdraw-input-text">
+                <br><br>
+                <button class="btn btn-success" id="withdraw-btn">withdraw</button>
+            </div>
+                 </div>
+        </div>
+</div>             
+               
+             
+   
+  <script src="script.js"></script>
 </body>
 </html>
