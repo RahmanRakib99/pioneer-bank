@@ -37,16 +37,10 @@ withdrawBtn.addEventListener("click",function(){
      const totalWithdraw=withdrawAmountNumber+currentWithdrawNumber;
      document.getElementById("currentWithdraw").innerText=totalWithdraw;
      //samevhabe balance theke remove hobe
-     const currentWithdrawBalance=document.getElementById("currentWithdraw").innerText;
+     const currentWithdrawBalance=document.getElementById("currentBalance").innerText;
      const currentWithdrawBalanceNumber=parseFloat(currentWithdrawBalance);
      const totalWithdrawBalance=currentWithdrawBalanceNumber-withdrawAmountNumber;
-     document.getElementById("currentWithdraw").innerText= totalWithdrawBalance;
-
-
-
-
-
-
+     document.getElementById("currentBalance").innerText= totalWithdrawBalance;
 
      document.getElementById("withdrawAmount").value="";
 })
