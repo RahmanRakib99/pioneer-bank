@@ -13,19 +13,21 @@ body{
 #transaction-area{
     display: none;
 }
-.Deposite{
-    background-color:slateblue ;
+.deposit{
+    background-color: slateblue;
 }
-.Withdraw{
+.withdraw{
     background-color: lightsalmon;
 }
-.Balance{
+.balance{
     background-color: orange;
 }
 .common-class{
-    text-align: center;
-    border-radius: 20px;
+    margin: 0 30px;
     color: white;
+    text-align: center;
+    border-radius: 30px;
     padding: 20px;
-   
 }
+
+
